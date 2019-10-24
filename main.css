@@ -14,7 +14,7 @@ li{
     float: left;
     margin: 5px;
     padding: 5px;
-    border: solid 1px rgb(255, 249, 249);
+    border: solid 1px rgb(170, 0, 0);
     border-radius: 16px;
     font-size: 14px;
 }
@@ -27,7 +27,8 @@ h1{
 }
 
 body{
-    font-family: 'Vollkorn', serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(253, 253, 253);
 }
 
 .subHeader{
@@ -40,39 +41,43 @@ body{
 }
 
 .primaryContent{
-    /* margin-top: 50px; */
     margin-left: 10px;
     margin-right: 10px;
     font-size: 22px;
-    text-indent:40px;
     line-height:30px;
 }
 
 .technologyUsed{
-    text-align:center;
+   text-align:right;
 }
 
 img {
     display:block;
-    max-width:85%;
+    max-width:100%;
     height:auto;
     margin-right: auto;
     margin-left: auto;
-    border: 1px pink solid;
+    border: 5px rgba(48, 48, 48, 0.897) solid;
+    border-radius: 10px;
+}
+
+.headerFont{
+    font-family: 'Vollkorn', serif;
 }
 
 .projects{
     font-size: 32px;
     font-style: bold;
     text-align: center;
-    border-bottom: 1px black solid;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .projectTitle{
     text-align:left;
-    margin-top: 40px;
+    margin-top: 80px;
     font-size:34px;
 
 }
@@ -97,6 +102,11 @@ img {
     .outerColumn{
         display:flex;
         flex-direction: column;
+        margin: 80px;
         justify-content:space-around;
+    }
+
+    .imageText{
+        text-align: center;
     }
 }
