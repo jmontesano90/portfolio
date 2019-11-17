@@ -25,6 +25,10 @@ nav{
     left: 5px;
 }
 
+h2{
+    white-space: nowrap;
+}
+
 h1{
     margin-top: 100px;
     font-size: 50px;
@@ -45,6 +49,10 @@ h1{
     background-color: black;
     border-radius: 5px;
     margin: 15px;
+}
+
+.tech{
+    font-size: 16px;
 }
 
 .technologyUsed:hover{
@@ -140,7 +148,7 @@ a.navLinks:link {
     text-decoration: none;
   }
   
-  #gitHub{
+  .link{
       margin-top: 10px;
   }
 
@@ -158,11 +166,7 @@ a.navLinks:link {
 
 
 @media screen and (min-width: 1080px) {
-    #gitHub{
-        margin-top:12px;
-    }
-
-    #email{
+    .link{
         margin-top:12px;
     }
 
@@ -193,8 +197,6 @@ a.navLinks:link {
     }
 
     li{
-        /* display: block; */
-        /* vertical-align: middle; */
         display: initial;
         position: relative;
         top: -8px;
@@ -202,7 +204,7 @@ a.navLinks:link {
         float: left;
         list-style-type: none;
         margin: 5px;
-        padding: 5px;
+        padding-top: 6px;
         font-size: 15px;
     }
 

@@ -5,7 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
     <title>Montesano Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"> -->
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -16,8 +16,10 @@
           </a>
 
         <ul id="navContent">
-            <li class="email" id="email"><a href="mailto:jmmmontesano@gmail.com" class="navLinks">Email</a></li>
-            <li class="gitHub" id="gitHub"><a href="https://github.com/jmontesano90" target="_blank" class="navLinks">GitHub</a></li>
+            <li class="link bio"><a href="#bio" class="navLinks">Bio</a></li>
+            <li class="link Portfolio"><a href="#projects" class="navLinks">Portfolio</a></li>
+            <li class="link email" id="email"><a href="mailto:jmmmontesano@gmail.com" class="navLinks">Email</a></li>
+            <li class="link gitHub" id="gitHub"><a href="https://github.com/jmontesano90" target="_blank" class="navLinks">GitHub</a></li>
       </ul>
 
     </nav>
@@ -26,7 +28,7 @@
     <main>
         <header>
             <h1 class="headerFont">Joseph M. Montesano</h1>
-                <div class="subHeader">Hi I'm Joe, a Web Developer/Biologist</div>
+                <div class="subHeader" id="bio">Hi I'm Joe, a Web Developer/Biologist</div>
         </header>
 
         
@@ -38,7 +40,7 @@
             <div class="imageText"><img src="https://imgur.com/9YLyHl4.jpg" class="outerimage"  alt="placeholder">This is my bearded dragon Reginald,<br> and yes he is precious.</div>
         </div>
 
-    <div class = "secondColumn">
+    <h2>
         <div class="primaryContent">
             <p>I am currently a Biologist working to restore marsh ecosystems while simultaneously reduce mosquito populations.
 I am a graduate of Thinkful's Web Developer bootcamp program.  I love building things from the ground up, and being able to see a project from its inception to completion.<br>
@@ -46,13 +48,13 @@ I am a graduate of Thinkful's Web Developer bootcamp program.  I love building t
 When I'm not working or learning more about code I'll be either at the gym, enjoying a video game or hanging out with my bearded dragon.</p>
         </div>
 
-        <div class="projects headerFont">Projects</div>
+        <div class="projects headerFont" id="projects">Projects</div>
 
         <div class="projectTitle headerFont">Dark Rolls</div>
 
         <div class="primaryContent">
             <p>Dark Rolls is a dice simulator for the Dark Souls board game.  It's function is to give you useful statitistics on gears dice rolls so players can make better informed decisions.
-It can also be useful to get the probability of an attack, which can be useful in a pinch! <br>Uses HTML, CSS, JS and JQuery</p>
+It can also be useful to get the probability of an attack, which can be useful in a pinch! <br><span class ="tech">Uses HTML, CSS, JS and JQuery</span></p>
 
 <img src="https://imgur.com/NnGTu7D.jpg" class="innerimage" alt="Dark Rolls">
             <div class="technologyUsedContainer">
@@ -64,7 +66,8 @@ It can also be useful to get the probability of an attack, which can be useful i
         <div class="projectTitle headerFont">Mosquito Questionaire</div>
 
         <div class="primaryContent">
-            <p>Mosquitoes are a living nightmare, but how much do you know about them?  This quiz is as much meant to test your knowledge, as it is to hopefully teach you something new!<br> Uses HTML, CSS, JS and JQuery</p>
+            <p>Mosquitoes are a living nightmare, but how much do you know about them?  This quiz is as much meant to test your knowledge, as it is to hopefully teach you something new!<br><span class="tech">Uses HTML, CSS, JS and JQuery</span></p>
+            
             
             <img src="https://imgur.com/oQsS16B.jpg" class="innerimage" alt="Mosquito Questionaire">
                 <div class="technologyUsedContainer">
@@ -72,7 +75,7 @@ It can also be useful to get the probability of an attack, which can be useful i
                     <a class="technologyUsed" href="https://github.com/jmontesano90/Mosquito-Quesionnaire" target="_blank">Link to repo</a>
                 </div>
         </div>
-    </div>
+    </h2>
 
     <div class="outerColumn thirdColumn">
         
