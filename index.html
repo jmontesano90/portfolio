@@ -11,80 +11,71 @@
 <body>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <nav class="navBar">     
-        <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+        <a href="#" class="icon" onclick="mobileNav()">
             <i class="fa fa-bars"></i>
           </a>
 
         <ul id="navContent">
             <li class="link bio"><a href="#bio" class="navLinks">Bio</a></li>
-            <li class="link Portfolio"><a href="#projects" class="navLinks">Portfolio</a></li>
+            <li class="link"><a href="#projects" class="navLinks">Portfolio</a></li>
             <li class="link email" id="email"><a href="mailto:jmmmontesano@gmail.com" class="navLinks">Email</a></li>
             <li class="link gitHub" id="gitHub"><a href="https://github.com/jmontesano90" target="_blank" class="navLinks">GitHub</a></li>
       </ul>
-
     </nav>
-
-    
     <main>
         <header>
             <h1 class="headerFont">Joseph M. Montesano</h1>
-                <div class="subHeader" id="bio">Hi I'm Joe, a Web Developer/Biologist</div>
+                <p class="subHeader" id="bio">Hi I'm Joe, a Web Developer/Biologist</p>
         </header>
 
-        
-
-
-<section class = "contentContainer">
-        <div class="outerColumn firstColumn">
-            <div class="imageText"><img src="https://imgur.com/aX4viT8.jpg" class="outerimage"  alt="marsh">Marsh in the process of being restored</div>
-            <div class="imageText"><img src="https://imgur.com/9YLyHl4.jpg" class="outerimage"  alt="placeholder">This is my bearded dragon Reginald,<br> and yes he is precious.</div>
-        </div>
-
-    <div class = "secondColumn">
-        <div class="primaryContent">
-            <p>I am currently a Biologist working to restore marsh ecosystems while simultaneously reduce mosquito populations.
-I am a graduate of Thinkful's Web Developer bootcamp program.  I love building things from the ground up, and being able to see a project from its inception to completion.<br>
-<br>
-When I'm not working or learning more about code I'll be either at the gym, enjoying a video game or hanging out with my bearded dragon.</p>
-        </div>
-
-        <div class="projects headerFont" id="projects">Projects</div>
-
-        <div class="projectTitle headerFont">Dark Rolls</div>
-
-        <div class="primaryContent">
-            <p>Dark Rolls is a dice simulator for the Dark Souls board game.  It's function is to give you useful statitistics on gears dice rolls so players can make better informed decisions.
-It can also be useful to get the probability of an attack, which can be useful in a pinch! <br><span class ="tech">Uses HTML, CSS, JS and JQuery</span></p>
-
-<img src="https://imgur.com/NnGTu7D.jpg" class="innerimage" alt="Dark Rolls">
-            <div class="technologyUsedContainer">
-                <a class="technologyUsed" href="https://jmontesano90.github.io/dark-rolls/" target="_blank">Dark Rolls</a><br>
-                <a class="technologyUsed" href="https://github.com/jmontesano90/dark-rolls" target="_blank">Link to repo</a>
-            </div>
+        <section class="contentContainer">
+            <div class="outerColumn firstColumn">
+                    <figure class="imageText">
+                        <img src="https://imgur.com/aX4viT8.jpg" class="outerimage" alt="photo of sunrise over marsh">
+                        <figcaption>Marsh in the process of being restored</figcaption>
+                    </figure> 
+                    <figure class="imageText">
+                        <img src="https://imgur.com/9YLyHl4.jpg" class="outerimage" alt="an adorable lizard">
+                        <figcaption>This is my bearded dragon Reginald,<br> and yes he is precious.</figcaption>
+                    </figure> 
             </div>
 
-        <div class="projectTitle headerFont">Mosquito Questionaire</div>
+            <div class="secondColumn">
+                    <p class="primaryContent">I am currently a Biologist working to restore marsh ecosystems while simultaneously reduce mosquito populations. I am a graduate of Thinkful's Web Developer bootcamp program.  I love building things from the ground up, and being able to see a project from its inception to completion.<br><br>When I'm not working or learning more about code I'll be either at the gym, enjoying a video game or hanging out with my bearded dragon.</p>
+                <h2 class="projects headerFont" id="projects">Projects</h2>
+                <div class="primaryContent">
+                <h3 class="projectTitle headerFont">Dark Rolls</h3>
+                    <p>Dark Rolls is a dice simulator for the Dark Souls board game.  It's function is to give you useful statitistics on gears dice rolls so players can make better informed decisions.
+        It can also be useful to get the probability of an attack, which can be useful in a pinch! <br><span class ="tech">Uses HTML, CSS, JS and JQuery</span></p>
 
-        <div class="primaryContent">
-            <p>Mosquitoes are a living nightmare, but how much do you know about them?  This quiz is as much meant to test your knowledge, as it is to hopefully teach you something new!<br><span class="tech">Uses HTML, CSS, JS and JQuery</span></p>
-            
-            
-            <img src="https://imgur.com/oQsS16B.jpg" class="innerimage" alt="Mosquito Questionaire">
+                <img src="https://imgur.com/NnGTu7D.jpg" class="innerimage" alt="Dark Rolls">
+                    
                 <div class="technologyUsedContainer">
-                    <a class="technologyUsed" href="https://jmontesano90.github.io/Mosquito-Quesionnaire/" target="_blank">Mosquito Questionaire</a><br>
-                    <a class="technologyUsed" href="https://github.com/jmontesano90/Mosquito-Quesionnaire" target="_blank">Link to repo</a>
+                        <a class="technologyUsed" href="https://jmontesano90.github.io/dark-rolls/" target="_blank">Dark Rolls</a><br>
+                        <a class="technologyUsed" href="https://github.com/jmontesano90/dark-rolls" target="_blank">Link to repo</a>
+                    </div>
                 </div>
-        </div>
-    </div>
 
-    <div class="outerColumn thirdColumn">
-        
-        <div class="imageText"><img src="https://imgur.com/RXsaftu.jpg" class="outerimage" alt="placeholder">Roll wisely!</div>
-        
-    </div>
-</section>
+                <div class="primaryContent">
+                <h3 class="projectTitle headerFont">Mosquito Questionaire</h3>
+                    <p>Mosquitoes are a living nightmare, but how much do you know about them?  This quiz is as much meant to test your knowledge, as it is to hopefully teach you something new!<br><span class="tech">Uses HTML, CSS, JS and JQuery</span></p>
+                    <img src="https://imgur.com/oQsS16B.jpg" class="innerimage" alt="Mosquito Questionaire">
+                        <div class="technologyUsedContainer">
+                            <a class="technologyUsed" href="https://jmontesano90.github.io/Mosquito-Quesionnaire/" target="_blank">Mosquito Questionaire</a><br>
+                            <a class="technologyUsed" href="https://github.com/jmontesano90/Mosquito-Quesionnaire" target="_blank">Link to repo</a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="outerColumn thirdColumn"> 
+                    <figure class="imageText">
+                        <img src="https://imgur.com/RXsaftu.jpg" class="outerimage" alt="an intimidating figure">
+                        <figcaption>Roll wisely!</figcaption>
+                    </figure>  
+            </div>
+        </section>
     </main>
-    <footer >Joseph Montesano 2019<br>jmmmontesano@gmail.com</footer>
+    <footer>Joseph Montesano 2019<br>jmmmontesano@gmail.com</footer>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="main.js"></script>
 </body>

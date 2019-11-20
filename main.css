@@ -148,6 +148,10 @@ a.navLinks:link {
     text-decoration: none;
   }
   
+  h4{
+    font-weight:normal;
+  }
+
   .link{
       margin-top: 10px;
   }
