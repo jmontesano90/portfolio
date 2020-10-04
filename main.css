@@ -1,263 +1,258 @@
-nav{
-    position:fixed;
-    top: 0;
-    left:0;
-    display: initial;
-    z-index: 2;
-    background-color: rgba(26, 26, 26, 0.534);
-    width: 28px;
-    height: 28px;
-  }
-
-  footer{
-      margin-top:35px;
-      text-align: right;
-  }
-
-  #navContent{
-      display: none;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: initial;
+  z-index: 2;
+  background-color: rgba(26, 26, 26, 0.534);
+  width: 28px;
+  height: 28px;
 }
 
-.icon{
-    display: initial;
-    position:relative;
-    top: 5px;
-    left: 5px;
+footer {
+  margin-top: 35px;
+  text-align: right;
 }
 
-h2{
-    white-space: nowrap;
+#navContent {
+  display: none;
 }
 
-h1{
-    margin-top: 100px;
-    font-size: 50px;
-    /* margin-left: 2%; */
-    border-bottom: black 1px solid;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    text-align:center;
-}
-.technologyUsedContainer{
-    text-align:center;
+.icon {
+  display: initial;
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 
-.technologyUsed{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    border: solid 1px rgb(255, 0, 0);
-    background-color: black;
-    border-radius: 5px;
-    margin: 15px;
+h2 {
+  white-space: nowrap;
 }
 
-.tech{
-    font-size: 16px;
+h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  /* margin-left: 2%; */
+  border-bottom: black 1px solid;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+}
+.technologyUsedContainer {
+  text-align: center;
 }
 
-.technologyUsed:hover{
-    transition-duration: .25s;
-    background-color: rgb(59, 37, 37);
-    text-decoration: underline;
+.technologyUsed {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: solid 1px rgb(255, 0, 0);
+  background-color: black;
+  border-radius: 5px;
+  margin: 15px;
 }
 
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-body{
-    font-family: 'Varela Round', sans-serif;
-    background-color: rgb(253, 253, 253);
+.tech {
+  font-size: 16px;
 }
 
-.subHeader{
-    font-size: 28px;
-    font-style: bold;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-weight: bold;
+.technologyUsed:hover {
+  transition-duration: 0.25s;
+  background-color: rgb(59, 37, 37);
+  text-decoration: underline;
 }
 
-.primaryContent{
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 22px;
-    line-height:30px;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-.technologyUsed{
-   text-align:right;
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: rgb(253, 253, 253);
+}
+
+.subHeader {
+  font-size: 28px;
+  font-style: bold;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.primaryContent {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.technologyUsed {
+  text-align: right;
 }
 
 img {
-    display:block;
-    max-width:100%;
-    height:auto;
-    margin-right: auto;
-    margin-left: auto;
-    border: 5px rgb(19, 19, 19) solid;
-    border-radius: 10px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px rgb(19, 19, 19) solid;
+  border-radius: 10px;
 }
 
-.headerFont{
-    font-family: 'Vollkorn', serif;
+.headerFont {
+  font-family: 'Vollkorn', serif;
 }
 
-.projects{
-    font-size: 40px;
-    font-style: bold;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    border-bottom: black 1px solid;
-    border-bottom-right-radius: 5px;
+.projects {
+  font-size: 40px;
+  font-style: bold;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  border-bottom: black 1px solid;
+  border-bottom-right-radius: 5px;
 }
 
-.projectTitle{
-    text-align:left;
-    margin-top: 80px;
-    font-size:34px;
-
+.projectTitle {
+  text-align: left;
+  margin-top: 80px;
+  font-size: 34px;
 }
-.outerColumn{
-    display: none;
-}
-
-#navContent{
-    display: none;
+.outerColumn {
+  display: none;
 }
 
+#navContent {
+  display: none;
+}
 
 a.navLinks:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: solid 2px rgb(255, 0, 0);
+  background-color: black;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+a.navLinks:visited {
+  border: solid 2px rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.link {
+  margin-top: 10px;
+}
+
+a.navLinks:active {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  .contentContainer {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .link {
+    margin-top: 12px;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: initial;
+    z-index: 2;
+    background-color: rgba(26, 26, 26, 0.911);
+    width: 100%;
+    height: 40px;
+  }
+
+  #navContent {
+    display: inline;
+  }
+
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  li {
+    display: initial;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    padding-top: 6px;
+    font-size: 15px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .contentContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .outerColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    justify-content: space-around;
+  }
+
+  .imageText {
+    text-align: center;
+  }
+
+  a.navLinks:link {
     color: rgb(255, 255, 255);
     text-decoration: none;
     border: solid 2px rgb(255, 0, 0);
     background-color: black;
     border-radius: 5px;
-    padding:2px;
-    margin-left: 5px;
+    padding: 5px;
+    font-size: 14px;
   }
-  
+
   a.navLinks:visited {
     border: solid 2px rgb(255, 0, 0);
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  
-  h4{
-    font-weight:normal;
-  }
 
-  .link{
-      margin-top: 10px;
+  a.navLinks:hover {
+    border: solid 2px rgb(255, 0, 0);
+    font-size: 20px;
+    transition-duration: 0.5s;
+    background-color: rgb(59, 37, 37);
+    text-decoration: underline;
   }
 
   a.navLinks:active {
     text-decoration: underline;
   }
-
-@media screen and (min-width: 600px){
-    .contentContainer{
-        margin-left: 25%;
-        margin-right:25%;
-    }
-
-}
-
-
-@media screen and (min-width: 1080px) {
-    .link{
-        margin-top:12px;
-    }
-
-    
-    nav{
-        position:fixed;
-        top: 0;
-        left:0;
-        display: initial;
-        z-index: 2;
-        background-color: rgba(26, 26, 26, 0.911);
-        width: 100%;
-        height:40px;
-      }
-    
-    
-    #navContent{
-        display: inline;
-    }
-
-    body{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .icon{
-        display: none;
-    }
-
-    li{
-        display: initial;
-        position: relative;
-        top: -8px;
-        left: -8px;
-        float: left;
-        list-style-type: none;
-        margin: 5px;
-        padding-top: 6px;
-        font-size: 15px;
-    }
-
-    h1{
-        text-align: center;
-    }
-    .contentContainer{
-        display: flex;
-        justify-content: space-around;
-        margin-left:0px;
-        margin-right:0px;
-    }
-    
-    .outerColumn{
-        display:flex;
-        flex-direction: column;
-        margin: 80px;
-        justify-content:space-around;
-    }
-
-    .imageText{
-        text-align: center;
-    }
-
-    a.navLinks:link {
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        border: solid 2px rgb(255, 0, 0);
-        background-color: black;
-        border-radius: 5px;
-        padding:5px;
-        
-      }
-      
-      a.navLinks:visited {
-        border: solid 2px rgb(255, 0, 0);
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-      }
-      
-      a.navLinks:hover {
-        border: solid 2px rgb(255, 0, 0);
-        font-size:20px;
-        transition-duration: .5s;
-        background-color: rgb(59, 37, 37);
-        text-decoration: underline;
-      }
-      
-      a.navLinks:active {
-        text-decoration: underline;
-      }
 }
