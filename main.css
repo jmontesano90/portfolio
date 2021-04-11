@@ -4,7 +4,7 @@ nav {
   left: 0;
   display: initial;
   z-index: 2;
-  background-color: rgba(26, 26, 26, 0.534);
+  background-color: rgba(26, 26, 26, 0.021);
   width: 28px;
   height: 28px;
 }
@@ -80,6 +80,10 @@ body {
   font-weight: bold;
 }
 
+.subAnimation {
+  animation: slideInRight 1s ease-in-out;
+}
+
 .primaryContent {
   margin-left: 10px;
   margin-right: 10px;
@@ -103,6 +107,11 @@ img {
 
 .headerFont {
   font-family: 'Vollkorn', serif;
+  backface-visibility: hidden;
+}
+
+.titleAnimation {
+  animation: slideInLeft 2s ease-in-out;
 }
 
 .projects {
@@ -254,5 +263,33 @@ a.navLinks:active {
 
   a.navLinks:active {
     text-decoration: underline;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
